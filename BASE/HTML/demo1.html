@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer></script>
+
+</head>
+
+<body>
+    <h1></h1>
+    <script>
+        // 函数需要被调用才会执行
+        function sayHi() {
+            console.log("HTML中的 JavaScript")
+            
+        }
+        console.log("HTML中的")
+
+        console.log("<\/script>")
+
+        sayHi()
+
+        // 动态加载JS文件  通过DOM进行操作  默认情况下 这种方式是以异步方式进行加载的
+        let script = document.createElement('script');
+        script.src = "../JS/demo1.js"
+        document.head.appendChild(script); 
+    </script>
+    <!-- 引入外部JS文件 -->
+    <!-- 推荐使用外部文件方式  可维护性 缓存 适应未来 -->
+    <!-- <script src="../JS/demo1.js"></script> -->
+
+</body>
+
+</html>

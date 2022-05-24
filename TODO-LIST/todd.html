@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <body>
+        <div id="root">
+            <div data-reactroot="">
+                <div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="todolist">
+                                <header>
+                                    <h1>To Do Tasks</h1>
+                                    <input type="text" class="form-control add-todo" value="" placeholder="Add New">
+                                </header>
+
+                                <ul class="list-unstyled">
+                                    <li class="todo-item ui-state-default pending">
+                                        <div class="checkbox">
+                                            <label><input type="checkbox" value="on">
+                                                Pick a new Guitar
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li class="todo-item ui-state-default pending">
+                                        <div class="checkbox">
+                                            <label><input type="checkbox" value="on">
+                                                Learn Redux
+                                            </label>
+                                        </div>
+                                    </li>
+                                    <li class="todo-item ui-state-default pending">
+                                        <div class="checkbox">
+                                            <label><input type="checkbox" value="on">
+                                                Build Awesome Websites
+                                            </label>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <footer class="clearfix">
+                                    <div class="pull-left buttons">
+                                        <div>
+                                            <a title="Add New" class="button add selected"></a>
+                                            <a title="Search" class="button search "></a>
+                                        </div>
+                                    </div>
+                                    <div class="pull-left">3 items</div>
+                                    <div class="pull-right">
+                                        <ul class="filters list-unstyled clearfix">
+                                            <li><a class="selected">All</a></li>
+                                            <li><a class="">Active</a></li>
+                                            <li><a class="">Completed</a></li>
+                                        </ul>
+                                    </div>
+                                </footer>
+                                <p class="info">Press `Esc` to cancel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</body>
+
+</html>
