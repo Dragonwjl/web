@@ -59,6 +59,7 @@ console.log(4 ** 2)
 
 
 
+
 // 字符串与数值比较大小时  如果字符串不能转化为有效数值 会转化为 NaN ,若任何关系操作符涉及到NaN时 都会返回 false
 let result = "a" < 3;
 console.log(result);
