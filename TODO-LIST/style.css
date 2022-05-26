@@ -1,0 +1,55 @@
+body {
+    background-color: #eee;
+    color: #555;
+}
+
+
+.todolist {
+    background-color: #FFF;
+    padding: 20px 20px 10px 20px;
+    width: 1000px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    position: relative;
+}
+
+.todolist h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.todolist .info {
+    position: absolute;
+    margin-top: 20px;
+    left: 0;
+    right: 0;
+    color: #999;
+    text-align: center;
+}
+
+.form-control {
+    text-align: center;
+    border-radius: 0;
+    width: 90%;
+    height: 34px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
